@@ -1,10 +1,10 @@
 # np-flink-connector-jdbc
 扩展了flink的jdbc连接器，支持flinksql oracle jdbc直连建表查询
-##准备工作
+## 准备工作
 > 下载release里面的jar包
 > 
 
-##替换官方jar包(flink-connector-jdbc)
+## 替换官方jar包(flink-connector-jdbc)
 ```
 <dependency>
 			<groupId>org.apache.flink</groupId>
@@ -133,7 +133,7 @@ public class OracleStreamSQL {
 ```
 
 
-##flinkSql直连oracle作为维度表关联kafka实时表多表join写入oracle宽表
+## flinkSql直连oracle作为维度表关联kafka实时表多表join写入oracle宽表
 
 ```
 
