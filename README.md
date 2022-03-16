@@ -1,5 +1,9 @@
 # np-flink-connector-jdbc
 扩展了flink的jdbc连接器，支持flinksql oracle jdbc直连建表查询
+
+## 2022-3-16 
+> 更新np-1.13.3 release
+
 ## 准备工作
 > 下载release里面的jar包
 > 
